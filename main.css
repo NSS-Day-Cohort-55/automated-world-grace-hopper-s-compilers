@@ -1,0 +1,42 @@
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation {
+  display: flex;
+}
+
+.logo-image {
+  flex: 1;
+}
+
+.content-cards {
+  display: flex;
+}
+
+.nav-bar {
+  flex: 5;
+}
+
+.cities {
+  flex: 1;
+  padding: 10px 20px;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.landmarks {
+  flex: 1;
+  padding: 10px 20px;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.famous-citizens {
+  flex: 1;
+  padding: 10px 20px;
+  border: 2px solid black;
+  margin: 20px;
+}
