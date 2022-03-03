@@ -1,3 +1,5 @@
+import { getLandmarks } from "./landmarkData.js"
+
 export const landmark = (landmarkObj) => {
     return `<article class="landmark-card">
                 <h4 class="landmark-name"><a href="${landmarkObj.url}" target="_blank"> ${landmarkObj.name}</a></h4>
