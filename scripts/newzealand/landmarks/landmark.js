@@ -7,3 +7,7 @@ export const landmark = (landmarkObj) => {
 				</ul>
         	</article>`
 }
+
+export const numberOfLandmarks = () => {
+    return `<h3>The Top ${getLandmarks().length} Landmarks To Visit</h3>`
+}
