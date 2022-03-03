@@ -33,3 +33,4 @@ const landmarkData = [
   export const getLandmarks = () => {
       return landmarkData
   }
+

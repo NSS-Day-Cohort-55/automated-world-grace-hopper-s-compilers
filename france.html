@@ -8,39 +8,52 @@
   <title>France</title>
 </head>
 <body>
-  <header>
-      <div class="logo-image">Logo image here</div>
+  <header class="navigation">
+      <div class="logo-image">
+        <img src="./images/logo_1.png" alt="">
+      </div>
       <nav class="nav-bar">
         <ul class="nav-list">
           <li><a href="index.html">Home</a></li>
           <li><a href="australia.html">Australia</a></li>
-          <li><a href="france.html">France</a></li>
+          <li><a id="active" href="france.html">France</a></li>
           <li><a href="germany.html">Germany</a></li>
           <li><a href="newzealand.html">New Zealand</a></li>
         </ul>
       </nav>
   </header>
   <main>
-    <div class="country-image"><img src="/images/paris.png" alt="Eiffeel Tower landscape image"></div>
+    <div class="country-image">
+      <img class="france-image" src="/images/paris.png" alt="Eiffeel Tower landscape image">
+    </div>
     <article>
-      <h1>Come visit France</h1>
+      <h1>Come Visit France</h1>
     </article>
     <article class="content">
       <section class="content-cards">
-        <div class="cities"><h3>Cities</h3>
+        <div class="cities">
+          <img class="france-city-image" src="./images/france-city.jpeg" alt="">
+          <hr/>
+          <h3>Cities</h3>
           <section class="cityList">
           </section>
         </div>
-        <div class="landmarks"><h3>Landmarks</h3>
+        <div class="landmarks">
+          <img class="france-landmark-image" src="./images/france-landmark.jpg" alt="">
+          <hr/>
+          <!-- <h3>Landmarks</h3> -->
           <section class="landmarkList">
           </section>
         </div>
-        <div class="famous-citizens"><h3>Famous Citizens</h3>
+        <div class="famous-citizens">
+          <img class="france-citizen-image" src="./images/france-citizen.jpg" alt="">
+          <hr/>
+          <h3>Famous Citizens</h3>
           <section class="famousCitizenList">
           </section>
         </div>
       </section>
-  </article>
+    </article>
   </main>
   <footer>
     <p>&copy; NSS Grace Hopper's Compilers </p>
