@@ -24,3 +24,7 @@ const cities = [
     url: 'https://en.wikipedia.org/wiki/Frankfurt'
   }
 ]
+
+export const getCities = () => {
+  return cities
+}

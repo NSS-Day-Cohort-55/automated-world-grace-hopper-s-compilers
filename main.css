@@ -115,7 +115,7 @@ a:link {
 }
 
 a:visited {
-  color: white;
+  color: brown;
 }
 
 a:focus {
@@ -146,4 +146,15 @@ body {
 .home-image {
   width: 100%;
   height: 300px;
+  background-color: red;
+}
+
+.german-landmark-image {
+  height: 250px;
+  width: 415px;
+}
+
+.germany-image {
+  width: 100%;
+  height: 600px;
 }
