@@ -2,7 +2,7 @@
  *  landmarkList renders individual landmark objects as HTML
  */
  import { getLandmarks } from "./landmarkData.js"
- import { landmark } from "./landmark.js"
+ import { landmark, numberOfLandmarks } from "./landmark.js"
  
  export const landmarkList = () => {
  
@@ -16,6 +16,7 @@
          // Declare a variable to hold on to the landmark HTML representation
          let landmarkHTMLRepresentation = "";
  
+         landmarkHTMLRepresentation += numberOfLandmarks()
          // loop over the array of landmark
          for (const eachlandmark of landmarks) {
              console.log(eachlandmark);
@@ -26,3 +27,4 @@
          contentElement.innerHTML += `${landmarkHTMLRepresentation}`
      }
  }
+
