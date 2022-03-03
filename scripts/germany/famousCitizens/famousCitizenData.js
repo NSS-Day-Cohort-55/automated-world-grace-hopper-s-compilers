@@ -24,3 +24,17 @@ const famousCitizens = [
     url: 'https://en.wikipedia.org/wiki/Johann_Sebastian_Bach'
   }
 ]
+
+export const getfamousCitizens = () => {
+  console.log(famousCitizens);
+  return famousCitizens
+}
+
+export const getfamousCitizenNames = () => {
+  const names = []
+  for (const citizen of famousCitizens) {
+      names.push(citizen.name)
+  }
+  console.log(names);
+  return names
+}
