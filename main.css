@@ -12,6 +12,15 @@
   flex: 1;
 }
 
+.logo {
+  height: 100px;
+  margin-right: 50px;
+}
+
+footer, header {
+  background-color: #046D8B;
+}
+
 .content-cards {
   display: flex;
 }
@@ -39,4 +48,18 @@
   padding: 10px 20px;
   border: 2px solid black;
   margin: 20px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
 }
