@@ -24,3 +24,7 @@ const landmarkData = [
     url: "https://www.australia.com/en-us/places/cairns-and-surrounds/guide-to-the-great-barrier-reef.html"
   }
 ]
+
+export const getLandmarks = () => {
+  return landmarkData
+}
