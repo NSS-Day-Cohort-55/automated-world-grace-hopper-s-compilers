@@ -24,3 +24,7 @@ const landmarkData = [
     url: 'https://en.wikipedia.org/wiki/Eltz_Castle'
   }
 ]
+
+export const getLandmarks = () => {
+  return landmarkData
+}
