@@ -104,6 +104,8 @@ footer {
 }
 /* Styling specific to France page -- ends here */
 
+/* home page image styling */
+
 .home-page-banner {
   width: 100%;
   height: 600px;
@@ -176,12 +178,21 @@ body {
   background-color: red;
 }
 
+/* germany image styling */
+
 .german-landmark-image {
   height: 250px;
   width: 415px;
 }
 
 .germany-image {
+  width: 100%;
+  height: 600px;
+}
+
+/* new zealand image styling */
+
+.newzealand-image {
   width: 100%;
   height: 600px;
 }
