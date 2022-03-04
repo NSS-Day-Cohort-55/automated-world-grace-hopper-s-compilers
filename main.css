@@ -77,6 +77,8 @@ footer, header {
   list-style-type: none;
 }
 
+/* france image styling */
+
 .france-image {
   width: 100%;
 }
@@ -92,6 +94,8 @@ footer, header {
 .france-citizen-image {
   width: 100%;
 }
+
+/* home page image styling */
 
 .home-page-banner {
   width: 100%;
@@ -132,12 +136,21 @@ a:active {
   background-color: red;
 }
 
+/* germany image styling */
+
 .german-landmark-image {
   height: 250px;
   width: 415px;
 }
 
 .germany-image {
+  width: 100%;
+  height: 600px;
+}
+
+/* new zealand image styling */
+
+.newzealand-image {
   width: 100%;
   height: 600px;
 }

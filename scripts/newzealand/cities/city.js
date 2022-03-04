@@ -7,3 +7,5 @@ export const city = (cityObj) => {
 				</ul>
         	</article>`
 }
+
+// creates html to be injected into the DOM
