@@ -28,3 +28,5 @@ const cities = [
   export const getCities = () => {
     return cities
 }
+
+// data to be displayed on the DOM and a function to grab that data to be used in other functions
