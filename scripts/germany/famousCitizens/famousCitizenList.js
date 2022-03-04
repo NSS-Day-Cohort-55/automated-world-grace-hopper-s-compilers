@@ -27,25 +27,25 @@
      }
  }
 
- export const famousCitizenNamesList = () => {
+//  export const famousCitizenNamesList = () => {
  
-    // Get a reference to the `<section class="famousCitizenList">` element
-    const contentElement = document.querySelector(".famousCitizenNamesList")
-    const names = getfamousCitizenNames()
+//     // Get a reference to the `<section class="famousCitizenList">` element
+//     const contentElement = document.querySelector(".famousCitizenNamesList")
+//     const names = getfamousCitizenNames()
 
-    // make sure we provided a valid html selector above
-    if (contentElement) {
+//     // make sure we provided a valid html selector above
+//     if (contentElement) {
 
-        // Declare a variable to hold on to the famousCitizen HTML representation
-        let nameHTMLRepresentation = "";
+//         // Declare a variable to hold on to the famousCitizen HTML representation
+//         let nameHTMLRepresentation = "";
 
-        // loop over the array of famousCitizen
-        for (const name of names) {
-            console.log(name);
-            nameHTMLRepresentation += `${famousCitizenNames(name)}`    
-        }
-        // Set the dom equal to the variable containing the famousCitizen html representations
-        // Add to the existing HTML in the content element
-        contentElement.innerHTML += `${nameHTMLRepresentation}`
-    }
-}
+//         // loop over the array of famousCitizen
+//         for (const name of names) {
+//             console.log(name);
+//             nameHTMLRepresentation += `${famousCitizenNames(name)}`    
+//         }
+//         // Set the dom equal to the variable containing the famousCitizen html representations
+//         // Add to the existing HTML in the content element
+//         contentElement.innerHTML += `${nameHTMLRepresentation}`
+//     }
+// }

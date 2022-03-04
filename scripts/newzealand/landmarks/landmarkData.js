@@ -24,3 +24,7 @@ const landmarkData = [
       url: "https://en.wikipedia.org/wiki/Hobbiton_Movie_Set"
     }
   ]
+
+  export const getLandmarks = () => {
+    return landmarkData
+}
