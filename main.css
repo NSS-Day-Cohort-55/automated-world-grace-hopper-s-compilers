@@ -132,7 +132,8 @@ h3 {
 }
 
 .australia-image {
-  width: 100%;
+  max-width: fit-content;
+  padding: .75;
 }
 .australia-city-image {
   width: 100%;
