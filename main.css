@@ -102,7 +102,18 @@ footer, header {
   width: 100%;
   height: 600px;
 }
-
+.australia-image {
+  width: 100%;
+}
+.australia-city-image {
+  width: 100%;
+}
+.australia-landmark-image {
+  width: 100%;
+}
+.australia-citizen-image {
+  width: 100%;
+}
 /* Anchor tag styling */
 a {
   outline: none;

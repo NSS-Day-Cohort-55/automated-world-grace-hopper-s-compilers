@@ -24,3 +24,16 @@ const famousCitizens = [
     url: "https://www.thefamouspeople.com/profiles/cate-blanchett-3705.php"
   }
 ]
+
+export const getfamousCitizens = () => {
+  return famousCitizens
+}
+
+export const getfamousCitizenNames = () => {
+  const names = []
+  for (const citizen of famousCitizens) {
+      names.push(citizen.name)
+  }
+  console.log(names);
+  return names
+}

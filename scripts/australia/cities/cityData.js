@@ -25,3 +25,7 @@ const cities = [
     url: "https://www.australia.com/en/places/cairns-and-surrounds/guide-to-cairns.html"
   }
 ]
+
+export const getCities = () => {
+  return cities
+}
