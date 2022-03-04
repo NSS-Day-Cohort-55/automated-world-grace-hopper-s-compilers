@@ -8,7 +8,7 @@ const landmarkData = [
   {
     name: "Port Arthur",
     year: 1833,
-    description: "Port Arthur Historic Site houses Australia's most intact convict SVGTextElement, including restored buildings and HTMLProgressElement, ruins, a harbour, a coalmine, a factory and an Isle of the Dead.",
+    description: "Port Arthur Historic Site houses Australia's most intact convict, including restored buildings, ruins, a harbour, a coalmine, a factory and an Isle of the Dead.",
     url: "https://australianlandmarks.com.au/tasmania/port-arthur-landmarks-of-tasmania",
   },
   {
