@@ -127,6 +127,23 @@ h3 {
 .nav-list a {
   padding: 6px;
   border-radius: 5px;
+}
+
+.australia-image {
+  width: 100%;
+}
+.australia-city-image {
+  width: 100%;
+}
+.australia-landmark-image {
+  width: 100%;
+}
+.australia-citizen-image {
+  width: 100%;
+}
+/* Anchor tag styling */
+a {
+  outline: none;
   text-decoration: none;
 }
 

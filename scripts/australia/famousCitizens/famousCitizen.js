@@ -8,7 +8,7 @@ export const famousCitizen = (famousCitizenObj) => {
         	</article>`
 }
 
-/* <div><img class="famousCitizen-image" src="images/${famousCitizenObj.image}"/></div> */
+
 
 export const famousCitizenNames = (famousCitizenObj) => {
     return `<li class="famousCitizen-details">Name: ${famousCitizenObj.name}</li>`
